@@ -1,0 +1,47 @@
+h2{
+    color: darkblue;
+
+}
+
+h1 { 
+    color: rgb(87, 87, 208);
+    font-family: 'Courier New', Courier, monospace
+}
+body {
+    background-color: rgb(14, 169, 230);
+}
+
+section, footer {
+    padding: 32px;
+    margin: 0 auto;
+    width: 700px;
+    background-color: white;
+}
+
+.profile{
+    text-align: center;
+    padding-top: 100px;
+}
+
+.profile> img{
+    width: 150px;
+    border-radius: 100px;
+    border: solid black 10px;
+}
+
+.social-media-link>img{
+    width: 50px;
+    cursor: pointer;
+}
+.about{ 
+    text-align: center;
+}
+.about>h2{
+    padding-top: 30px;
+}
+.about>a{
+    padding-bottom: 30px;
+}
+.project-container{
+    text-align: center;
+}
